@@ -1,5 +1,7 @@
 # Objects
+obj/*
 !obj/.gitkeep
 
 # Build
+build/*
 !build/.gitkeep
