@@ -1,11 +1,9 @@
 global _start
 
-section .data
+section .rodata
     align 2
     msg: db 'Hello World!',0x0a
     len: equ $-msg
-
-section .bss
 
 section .text
     _start:
