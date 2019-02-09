@@ -2,7 +2,7 @@ global _start
 
 section .rodata
     align 2
-    msg: db 'Hello World!',0x0a
+    msg: db 'Hello World!',0ah
     len: equ $-msg
 
 section .text
